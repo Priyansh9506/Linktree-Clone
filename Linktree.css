@@ -1,17 +1,22 @@
 button {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     color: #0000000;
-    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     padding: 20px 100px;
-    border-radius: 20px;
+    border-radius: 25px;
     border: 2px solid #000000;
     background: rgb(255, 139, 148);
-    box-shadow: 5px 5px #000000;
+    box-shadow: 7px 7px #000000;
     cursor: pointer;
-    margin: 35px 0;
+    margin: 15px 0;
   }
   
-  button:active {
-    box-shadow: none;
-    transform: translate(5px, 5px);
+  button:hover {
+    box-shadow: 3px 3px #000000;
+    transform: translate(4px, 4px);
+  }
+
+  a {
+    color : #000000;
+    text-decoration: none;
   }
